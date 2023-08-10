@@ -1,6 +1,6 @@
 {
   "github_token": "gh_token",
-  "start_of_apprenticeship": "start_of_apprenticeship",
+  "start_of_apprenticeship": "year-month-day",
   "organization": "organization",
   "branch": "main",
   "file_dir": "dir of report",
