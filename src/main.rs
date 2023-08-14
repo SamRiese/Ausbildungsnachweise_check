@@ -42,7 +42,7 @@ async fn main() -> Result<(), AusbildungsnachweiseCheckError> {
     if !path.exists() {
         let _ = create_dir_all(directory);
         let mut file = File::create(&path).expect("Unable to create file");
-        file.write_all(include_bytes!("..\\configuration_sample.json"))
+        file.write_all(include_bytes!("../configuration_sample.json"))
             .expect("Failed to create sample configuration.json");
         println!("Created sample Configuration.json at: {}", path.display());
         return Ok(())
